@@ -1,7 +1,7 @@
 {
     "name": "zhilevan/zhilify",
     "type": "library",
-    "description": "ZHILIFY - better view for of print_r(); and var_dump(); (with new updates)",
+    "description": "Zhilify is a tool for debugging with dump variables, arrays and objects in a pretty way.",
     "license": "LGPL",
     "keywords": ["debug", "debugging", "pretty", "print", "print_r", "var_dump", "zhilify" ,"php"],
     "authors": [
