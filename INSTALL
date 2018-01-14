@@ -1,0 +1,13 @@
+------------------------------------------------------------------------------
+
+                     SETUP: How to install Zhilify ?
+
+------------------------------------------------------------------------------
+
+In order to use Zhilify you have to put it on your (development) server, and
+include it in your script. You can put it somewhere in the INCLUDE_PATH, or 
+specify the full path to the "class.zhilify.php" file.
+
+Next you'll need to rename zhilify.sample.ini to zhilify.ini, and make any
+setting changes. The zhilify.ini is optional, Zhilify will use "sane" defaults
+if no zhilify.ini is found, or the item is commented out.

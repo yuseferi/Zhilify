@@ -1,0 +1,179 @@
+ul.zhilify-node,#content ul.zhilify-node li {
+	margin: 0;
+	padding: 0;
+	background: 0;
+	color: #000;
+}
+
+ul.zhilify-node ul {
+	margin-left: 18px;
+}
+
+* html ul.zhilify-node ul {
+	margin-left: 24px;
+}
+
+div.zhilify-root {
+	border: solid 1px #000;
+	margin: .5em;
+}
+
+ul.zhilify-first {
+	font-family: "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	border: solid 2px #fff;
+	border-top-width: 1px;
+	background: url(data:image/gif;base64,R0lGODlhWgAJALMAAP///8vLy+Tk5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAABaAAkAAAQ6MAgh6az4astz314Ijl/pkaKJrmqbvivssnJN358973qPn7yfMEi0+YrDoxLJXDZxyehzCnNapVdLBAA7);
+}
+
+li.zhilify-child {
+	display: block;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+div.zhilify-element {
+	cursor: default;
+	line-height: 22px;
+	display: block;
+	clear: both;
+	white-space: nowrap;
+	border-top: solid 1px #fff;
+	background: #E8E8E8;
+	background-repeat: no-repeat;
+	background-position: 6px 8px;
+	padding-left: 18px;
+}
+
+* html div.zhilify-element {
+	padding-bottom: 3px;
+}
+
+a.zhilify-name {
+	color: #2C5858;
+	font-family: "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+a.zhilify-name big {
+	font: 700 20pt Georgia;
+	line-height: 14px;
+	position: relative;
+	top: 2px;
+	left: -2px;
+}
+
+* html a.zhilify-name big {
+	font: 700 19pt Georgia;
+	top: 5px;
+	left: 0;
+	line-height: 9px;
+	height: 12px;
+	padding: 0;
+	margin: 0;
+}
+
+div.zhilify-expand {
+	background-color: #CCC;
+	cursor: pointer;
+}
+
+div.zhilify-hover {
+	background-color: #B7DBDB;
+}
+
+div.zhilify-expand {
+	background-image: url(data:image/gif;base64,R0lGODlhCQAJALMAAP///wAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAJAAkAAAQTEIAna33USpwt79vncRpZgpcGRAA7);
+	cursor: pointer;
+}
+
+div.zhilify-opened {
+	background-image: url(data:image/gif;base64,R0lGODlhCQAJALMAAP///wAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAJAAkAAAQQEMhJ63w4Z6C37JUXWmQJRAA7);
+}
+
+div.zhilify-preview {
+	font: 400 13px courier new;
+	padding: 5px;
+	background: #fff;
+	border-top: 0;
+	overflow: auto;
+}
+
+* html div.zhilify-preview {
+	padding-top: 2px;
+}
+
+li.zhilify-footnote {
+	background: #fff;
+	padding: 2px 5px;
+	list-style: none;
+	border-top: solid 1px #bebebe;
+	margin-top: 2px;
+	cursor: default;
+}
+
+* html li.zhilify-footnote {
+	line-height: 13px;
+}
+
+.zhilify-version {
+	float: right;
+}
+
+.zhilify-version-number {
+	font-family: "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
+	font-weight: 700;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	color: #366D6D;
+	display: inline;
+	margin-right: 3px;
+}
+
+li.zhilify-footnote a {
+	font-family: "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
+	font-weight: 700;
+	font-size: 10px;
+	color: #434343;
+	text-decoration: none;
+}
+
+li.zhilify-footnote a:hover {
+	color: #000;
+}
+
+li.zhilify-footnote span.zhilify-call {
+	font-family: "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	position: relative;
+	top: 1px;
+}
+
+li.zhilify-footnote span.zhilify-call code {
+	font-weight: 700;
+}
+
+div.zhilify-title {
+	font-family: "Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	cursor: default;
+}
+
+strong.zhilify-array-length,strong.zhilify-string-length {
+	font-weight: 400;
+}
+
+.zhilify-boolean,
+.zhilify-null,
+.zhilify-sorted,
+.zhilify-datetime {
+    font-weight: bold;
+    color: #700;
+}

@@ -1,0 +1,159 @@
+/**
+* Zhilify "Green" Skin
+*
+* @version $Id: skin.css 6 2007-06-16 06:37:27Z mrasnika $
+* @author Kaloyan K. Tsvetkov <mrasnika@users.sourceforge.net>
+*/
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+ul.zhilify-node {
+	margin: 0px;
+	padding: 0px;
+	color: #000;
+	}
+ul.zhilify-node ul {
+	margin-left: 20px;
+	}
+* html ul.zhilify-node ul {
+	margin-left: 24px;
+	}
+div.zhilify-root {
+	border: solid 1px black;
+	margin: 1em 0em;
+	}
+ul.zhilify-first {
+	font: normal 12px arial;
+	border: solid 2px white;
+	border-top-width:1px;
+	background: url(%url%bg.gif);
+	}
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+li.zhilify-child {
+	display:block;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	overflow:hidden;
+	}
+div.zhilify-element {
+	cursor:default;
+
+	line-height: 24px;
+	display:block;
+
+	clear:both;
+	white-space:nowrap;
+
+	border-top: solid 1px white;
+	background: #D7F4CA;
+	padding-left: 10px;
+	}
+* html div.zhilify-element {
+	padding-bottom: 3px;
+	}
+a.zhilify-name {
+	color:#004000;
+	font: bold 13px Arial;
+	}
+a.zhilify-name big {
+	font: bold 20pt Georgia;
+	line-height: 14px;
+	position:relative;
+	top:2px;
+	left:-2px;
+	}
+* html a.zhilify-name big {
+	font: bold 19pt Georgia;
+	top: 5px;
+	left: 0px;
+	line-height: 9px;
+	height: 12px;
+	padding: 0px;
+	margin: 0px;
+	}
+div.zhilify-expand {
+	background: #C0EEAC;
+	cursor:pointer;
+	}
+div.zhilify-hover {
+	background: gold;
+	}
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+div.zhilify-preview {
+	font: normal 13px courier new;
+	padding: 5px 5px 14px 5px;
+	background: white;
+	border-top: 0px;
+	overflow:auto;
+	}
+* html div.zhilify-preview {
+	padding-top: 2px;
+	}
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+li.zhilify-footnote {
+	background:white;
+	padding: 2px 5px;
+	list-style:none;
+	border-top: solid 1px #bebebe;
+	margin-top:2px;
+	cursor:default;
+	}
+* html li.zhilify-footnote {
+	line-height: 13px;
+	}
+div.zhilify-version {
+	float:right;
+	}
+li.zhilify-footnote h6 {
+	font: bold 11px verdana;
+	margin: 0px;
+	padding: 0px;
+	color:#008040;
+	display:inline;
+	}
+* html li.zhilify-footnote h6 {
+	margin-right: 3px;
+	}
+li.zhilify-footnote a {
+	font: bold 10px arial;
+	color: #434343;
+	text-decoration:none;
+	}
+li.zhilify-footnote a:hover {
+	color:black;
+	}
+
+li.zhilify-footnote span.zhilify-call {
+	font:normal 11px verdana;
+	position: relative;
+	top: 1px;
+	}
+li.zhilify-footnote span.zhilify-call code {
+	font-weight:bold;
+	}
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+div.zhilify-title {
+	font: normal 11px verdana ;
+	position:relative;
+	top:9px;
+	cursor:default;
+	line-height:2px;
+	}
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+
+strong.zhilify-array-length,
+strong.zhilify-string-length {
+	font-weight: normal;
+	}
+
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
