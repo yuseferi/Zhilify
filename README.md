@@ -20,7 +20,7 @@ Add this line to your composer.json "require" section:
 ```json
 {
 	"require": {
-		"zhilevan/zhilify": "*"
+		"yuseferi/zhilify": "*"
 	}
 }
 ```

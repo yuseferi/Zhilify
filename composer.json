@@ -1,13 +1,13 @@
 {
-    "name": "zhilevan/zhilify",
+    "name": "yuseferi/zhilify",
     "type": "library",
     "description": "Zhilify is a tool for debugging with dump variables, arrays and objects in a pretty way.",
     "license": "LGPL",
     "keywords": ["debug", "debugging", "pretty", "print", "print_r", "var_dump", "zhilify" ,"php"],
     "authors": [
         {
-	    "name": "Zhilevan",
-	    "email": "zhilevan@gmail.com"
+	    "name": "yuseferi",
+	    "email": "yuseferi@gmail.com"
 	},
 	{
 	    "name": "Zhilify",
@@ -25,4 +25,3 @@
         "files": ["class.zhilify.php"]
     }
 }
-
